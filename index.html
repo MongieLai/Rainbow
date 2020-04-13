@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            overflow: hidden
+        }
+
+        .rainbow {
+            width: 500px;
+            height: 500px;
+            background: red;
+            border-radius: 50%;
+        }
+
+        .rainbow>div {
+            height: 480px;
+            margin: 10px;
+            background: hsl(60, 50%, 50%);
+            border-radius: 50%;
+        }
+
+        .rainbow>div>div {
+            height: 460px;
+            margin: 10px;
+            background: hsl(120, 50%, 50%);
+            border-radius: 50%;
+        }
+
+        .rainbow>div>div>div {
+            height: 440px;
+            margin: 10px;
+            background: hsl(180, 50%, 50%);
+            border-radius: 50%;
+        }
+
+        .rainbow>div>div>div>div {
+            height: 420px;
+            margin: 10px;
+            background: hsl(240, 50%, 50%);
+            border-radius: 50%;
+        }
+
+        .rainbow>div>div>div>div>div {
+            height: 400px;
+            margin: 10px;
+            background: hsl(300, 50%, 50%);
+            border-radius: 50%;
+        }
+
+        .rainbow>div>div>div>div>div>div {
+            height: 380px;
+            margin: 10px;
+            background: white;
+            ;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div style="height:250px;">
+        <div class="rainbow">
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
